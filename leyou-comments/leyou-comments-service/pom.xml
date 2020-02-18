@@ -16,7 +16,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.leyou.comments</groupId>
+    <groupId>com.leyou.comments.service</groupId>
     <artifactId>leyou-comments-service</artifactId>
 
 
@@ -69,19 +69,13 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.leyou.authentication</groupId>
-            <artifactId>leyou-authentication-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>com.leyou.common</groupId>
             <artifactId>leyou-common</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.leyou.comments</groupId>
+            <groupId>com.leyou.comments.interface</groupId>
             <artifactId>leyou-comments-interface</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>
@@ -93,7 +87,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.leyou.order</groupId>
+            <groupId>com.leyou.order.interface</groupId>
             <artifactId>leyou-order-interface</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>

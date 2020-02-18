@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.leyou.seckill</groupId>
+    <groupId>com.leyou.seckill.service</groupId>
     <artifactId>leyou-seckill-service</artifactId>
     <dependencies>
         <!-- eureka -->
@@ -60,7 +60,7 @@
 
         <!--订单微服务-->
         <dependency>
-            <groupId>com.leyou.order</groupId>
+            <groupId>com.leyou.order.interface</groupId>
             <artifactId>leyou-order-interface</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
@@ -90,7 +90,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.leyou.seckill</groupId>
+            <groupId>com.leyou.seckill.interface</groupId>
             <artifactId>leyou-seckill-interface</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>

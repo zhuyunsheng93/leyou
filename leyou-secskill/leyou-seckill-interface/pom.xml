@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.leyou.seckill</groupId>
+    <groupId>com.leyou.seckill.interface</groupId>
     <artifactId>leyou-seckill-interface</artifactId>
     <packaging>jar</packaging>
 
@@ -27,18 +27,6 @@
         <dependency>
             <groupId>com.leyou.authentication</groupId>
             <artifactId>leyou-authentication-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.leyou.item.interface</groupId>
-            <artifactId>leyou-item-interface</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.leyou.item.interface</groupId>
-            <artifactId>leyou-item-interface</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
